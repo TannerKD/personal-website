@@ -45,11 +45,12 @@
   }
 
   nav {
-    width: 200px;
+    width: 230px;
     background: #f4f4f4;
     height: calc(100vh - 60px);
     overflow-y: auto;
     border-right: 1px solid #ddd;
+    padding-left: 10px;
   }
 
   nav h2 {
