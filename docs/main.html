@@ -5,46 +5,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TD's Personal Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <title data-i18n="page_title"></title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body>
+<body class="landing_page">
   <!-- Header, same for each page -->
   <header>
-    <h1><a href="/main.html">Tanner Dalde</a></h1>
-    <h6> Electrical Engineering Student - Agricultural Interests</h6>
+    <h1><a href="main.html">Tanner Dalde</a></h1>
+    <h6 data-i18n="subtitle"></h6>
   </header>
-
   
   <div class="container">
     <!-- Navigation, should be similar for each page -->
     <nav>
-      <h2>Contact</h2>
+      <h2 data-i18n="nav_contact"></h2>
       <a href="mailto:tanner.dalde@gmail.com" title="tanner.dalde@gmail.com">&#128221; E-Mail</a>
       
-      <h2>About Me</h2>
-      <a href="About_Me/profile.html">Profile</a>
-      <a href="About_Me/background.html">Background</a>
-      <a href="About_Me/interests.html">Interests</a>
+      <h2 data-i18n="nav_aboutme"></h2>
+      <a href="About_Me/profile.html" data-i18n="nav_profile"></a>
+      <a href="About_Me/background.html" data-i18n="nav_background"></a>
+      <a href="About_Me/interests.html" data-i18n="nav_interests"></a>
 
-      <h2>Projects</h2>
-      <a href="#nodes">Nodes</a>
+      <h2 data-i18n="nav_projects"></h2>
+      <a href="#nodes" data-i18n="nav_nodes"></a>
 
-      <h2>Organizations</h2>
-      <a href="/Organizations/IEEE.html">IEEE USU</a>
+      <h2 data-i18n="nav_organizations"></h2>
+      <a href="/Organizations/IEEE.html" data-i18n="nav_ieee"></a>
+
+      <h2 data-i18n="nav_language"></h2> 
+      <a href="main.html" onclick="changeLanguage('en')" data-i18n="nav_english"></a> 
+      <a href="main.html" onclick="changeLanguage('es')" data-i18n="nav_spanish"></a>
     </nav>
 
     <!-- Page specific content -->
     <main>
       <section id="landing">
-        <h1>Tanner Dalde's Personal Website</h1>
-        <img src="assets/images/landing_page_1.jpg" alt="Agriculture_Photo" style="width:600px;height:331px">
-        <p>&nbsp; Warm greetings to my personal website. My hope is that visitors to this page can easily gain an idea of the principles and ethics which guide my study and work as an electrical engineering student, and come to an fair understanding of my practical abilities as demonstrated through my organizational involvement and personal projects. I am most interested in the application of electrical engineering with respect to the agriculture problems faces by the world today; I intend my work and study to focus on finding solutions to some of these critical problems in order to help people live better lives. It is my guiding principle that regardless of how divided the world is, everyone can come together to enjoy good food.</p>
+        <h1 data-i18n="landing_title"></h1>
+        <p data-i18n="landing_paragraph_1"></p>
       </section>
 
       <!-- Add more sections as needed -->
     </main>
+
   </div>
+  <!-- Script referenced for language capabilities-->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
