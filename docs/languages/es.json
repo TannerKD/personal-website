@@ -1,23 +1,22 @@
 {
-    "page_title": "Sitio Web Personal de TD",
+    "page_title": "TD's Personal Website (ES)",
     "subtitle": "Estudiante de Ingeniería Electrónica - Interesado en la agricultura",
-  
-  
+
     "nav_contact": "Contacto",
     "nav_aboutme": "Sobre mí",
     "nav_profile": "Profíl",
     "nav_background": "Orígen",
     "nav_interests": "Intereses",
-    "nav_projects": "Projectos",
+    "nav_projects": "Proyectos",
     "nav_nodes": "Nodes",
     "nav_organizations": "Organizaciónes",
     "nav_ieee": "IEEE USU",
     "nav_language": "Idioma",
     "nav_english": "Íngles",
     "nav_spanish": "Español",
-  
-  
+    "nav_german": "Alemán",
+
     "landing_title": "El Sitio Personal de Tanner Dalde",
     "landing_paragraph_1": "&nbsp; Bienvenido a mi sitio web personal. Espero que quienes visiten este sitio puedan fácilmente navegarlo. Se incluyen los principios y valores que guían mis estudios como estudiante de ingeniería electrónica para que se pueda obtener un entendimiento de mis capacidades prácticas. Se demuestran estas capacidades a través de mi participación en organizaciones y proyectos personales. Me interesa más que nada la aplicación de ingeniería electrónica con respecto a los problemas agrícolas que enfrenta el mundo hoy en día. Mi intención es que mi trabajo y estudio estén enfocados en encontrar soluciones para resolver algunos de los problemas cruciales de la agricultura con el fin de mejorar la calidad de vida de las personas. Mi principio rector es que no importa cuán dividido esté el mundo, toda la gente puede unirse para disfrutar de una comida sabrosa."
-    } 
+} 
   
